@@ -3,6 +3,7 @@ require('init-lsp')
 require('init-theme')
 require('init-tree')
 require('init-key')
+require('init-lspui')
 --  ==================
 --  ===== Basic ======
 --  ==================

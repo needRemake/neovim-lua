@@ -48,4 +48,6 @@ use {
 use {"akinsho/toggleterm.nvim",config = function() require("init-term") end }
   -- rust
 use {"simrat39/rust-tools.nvim",config = function() require("rust-tools").setup(){} end}
+  -- lsp UI
+use { 'tami5/lspsaga.nvim' } 
 end)
