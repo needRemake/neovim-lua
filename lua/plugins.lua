@@ -44,5 +44,8 @@ use {
     }
     end
 }
-use {"numToStr/FTerm.nvim",config = function() require("FTerm").setup(){} end }
+  -- term 
+use {"akinsho/toggleterm.nvim",config = function() require("init-term") end }
+  -- rust
+use {"simrat39/rust-tools.nvim",config = function() require("rust-tools").setup(){} end}
 end)

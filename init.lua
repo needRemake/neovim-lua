@@ -22,3 +22,4 @@ vim.wo.signcolumn = "yes"
 vim.o.wrap = true
 vim.wo.wrap = true
 vim.cmd("set nofoldenable")
+vim.cmd("autocmd BufNewFile *.cxx 0r ~/.config/nvim/Template/cxx.template")
