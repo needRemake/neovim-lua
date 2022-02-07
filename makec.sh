@@ -1,9 +1,11 @@
 #!/bin/bash
 
-read -p "Compile " file
+#read -p "Compile " file
 
-g++ $file.cxx -std=c++14 -Wall -o $file
+#g++ $file.cxx -std=c++14 -Wall -o $file
+g++ $1.cxx -std=c++14 -Wall -o $1
 
-echo Compilation complete
+#echo Compilation complete
 
-time ./$file
+#time ./$file
+time ./$1
