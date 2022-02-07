@@ -25,6 +25,7 @@ keymap("i","<C-k>","<Up>",opts)
 keymap("i","<C-l>","<Right>",opts)
 -- copy
 keymap("v","<LEADER>y","\"+y",opts)
+keymap("v","ga","G",opts)
 -- macro
 keymap("v","<LEADER>a",":normal @a<CR>",opts)
 -- tree

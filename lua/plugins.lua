@@ -32,7 +32,7 @@ use {'windwp/windline.nvim',config = function() require('wlsample.airline') end}
   -- which key
 use {"folke/which-key.nvim",config = function() require('which-key').setup() end}
   -- highlight
-use {'nvim-treesitter/nvim-treesitter',config = function() require('init-treesitter') end}
+use {'nvim-treesitter/nvim-treesitter',run = ':TSUpdate',config = function() require('init-treesitter') end}
   -- indent
 use {
     'lukas-reineke/indent-blankline.nvim',
